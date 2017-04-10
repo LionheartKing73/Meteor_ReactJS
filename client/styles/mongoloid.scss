@@ -1,0 +1,13 @@
+label.mongol__error-message {
+  color: red !important;
+  text-shadow: 1px 0 30px #ffffff;
+  padding-top: 0.5em;
+  &.state-error{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 21px;
+    color: #d80707;
+    text-shadow: 1px 1px 24px white;
+  }
+}

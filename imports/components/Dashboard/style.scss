@@ -1,0 +1,310 @@
+button, a {
+  outline: 0 !important;
+}
+.Dashboard__container {
+  .div-content {
+	/*Dashboard - ACÕES/ATIVIDADES: INICIO*/
+	.div-content-atividades{
+	  background-color: #EBEBEB;
+	  padding: 0 0 40px 0px;
+	  color:#004e70;
+	  > div{
+		padding:  10px 40px 0px;
+	  }
+	  .div-content-atividades-header{
+		position: relative;
+		padding-top: 40px;
+		.btn.btn-clicklead{
+		  padding: 8px 50px;
+		  background-color: #004e70;
+		  color: #fff;
+		  font-weight: 600;
+		  &:hover{
+			background-color: #006590;
+			color: #fff;
+		  }
+		  &:active{
+			background-color: #5cb1d1;
+			color: #fff;
+		  }
+		}
+	  }
+	  .div-content-atividades-itens {
+		max-height: 255px;
+		overflow-y: hidden;
+		-webkit-transition: max-height 1s;
+		-moz-transition: max-height 1s;
+		-ms-transition: max-height 1s;
+		-o-transition: max-height 1s;
+		transition: max-height 1s;
+		> p {
+		  text-align: center;
+		  color: #999;
+		  padding: 0px 0px 30px 0px;
+		  font-size: 16px;
+		}
+		&.div-acoes-expand{
+		  max-height: 510px;
+		  -webkit-transition: max-height 1s;
+		  -moz-transition: max-height 1s;
+		  -ms-transition: max-height 1s;
+		  -o-transition: max-height 1s;
+		  transition: max-height 1s;
+		}
+		th {
+		  font-size: 12px;
+		  text-transform: uppercase;
+		  border-bottom: 1px solid #fff;
+		  &:hover{
+			>td{
+			  background-color: #f9f9f9;
+			}
+		  }
+		}
+		>tbody{
+		  >tr{
+			&:hover{
+			  cursor:pointer !important;
+			}
+			>td{
+			  width: 22%;
+			  position: relative;
+			  border-bottom: 1px solid #fff;
+			  &.time-item{
+				text-align: left;
+				font-weight: 700;
+				text-transform: lowercase;
+				&.tempo-acabando{
+				  color:#B71C1C;
+				}
+				&.tempo-medio{
+				  color:#F9A825;
+				}
+			  }
+			  &.foto-produto{
+				width: 12%;
+				img{
+				  max-height: 21px;
+				  position: absolute;
+				  left: 8px;
+				  top: 10px;
+				}
+			  }
+			  &.status-item {
+				p {
+				  padding: 3px 0px;
+				  padding-right: 6px;
+				  margin: 0px;
+				  display: inline-block;
+				}
+			  }
+			}
+		  }
+		}
+	  }
+	  .icon-expand{
+		font-size: 30px;
+		color:#5cb1d1;
+		padding: 0px;
+		display: block;
+		text-align: center;
+		background-color: #f2f2f2;
+		&:hover{
+		  background-color: #ddd;
+		  i{
+			-webkit-animation-name: slybounce;
+			-webkit-animation-duration: 0.7s;
+			-webkit-animation-timing-function: ease-in-out;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-delay: 0;
+			-webkit-animation-play-state: running;
+			-moz-animation-name: slybounce;
+			-moz-animation-duration: 0.7s;
+			-moz-animation-timing-function: ease-in-out;
+			-moz-animation-iteration-count: infinite;
+			-moz-animation-delay: 0;
+			-moz-animation-play-state: running;
+		  }
+		}
+	  }
+	}
+	/*Dashboard - ACÕES/ATIVIDADES: FIM*/
+	/*Dashboard - Gamefication e comunicações: INICIO*/
+	.border-content{
+	  border-top:1px solid #eee;
+	  margin: 0px !important;
+	  .div-content-gamefication{
+		padding-bottom:40px;
+		.div-content-categoria{
+		  > img {
+			max-height: 180px;
+			margin-left: 30px;
+		  }
+		  .div-content-gamefication-itens {
+			margin: 0px 0px 0px 10px;
+		  }
+		}
+	  }
+
+	}
+	/*Dashboard - Gamefication e comunicações: FIM*/
+  }
+
+ /*Inicio tabs*/
+	.tabsacel-header{
+	  background-color: #ededed;
+	  padding: 32px 0 0 0 !important;
+		.nav-tabsacel{
+		  &.nav{
+			&.nav-tabs {
+			  padding-left: 30px;
+			  border-bottom: 0px;
+			  >li{
+				border-radius: 3px 3px 0px 0px;
+				background-color: rgba(214, 214, 214, 0.5);
+				margin-left: 0px;
+				margin-right: 10px;
+				text-align: center;
+				>a{
+				  color: #555;
+				  margin:0px;
+				  min-width: 100px;
+				  &:hover {
+					border-color: transparent;
+					background-color: rgba(214, 214, 214, 0.7);
+				  }
+				  img {
+					height: 32px;
+					display: block;
+					margin: 0 auto;
+				  }
+				  p {
+					margin: 3px 0px 0px 0px;
+					font-weight: 600;
+					font-size: 11px;
+				  }
+				}
+				&.active {
+				  background-color: #fff;
+				  border-radius: 3px 3px 0px 0px;
+				  border-width: 0px;
+				  >a {
+					border-color: #fff;
+					border-radius: 3px 3px 0px 0px;
+					&:focus {
+						background-color: #fff;
+					}
+					&:hover {
+						background-color: #fff;
+					}
+				  }
+				}
+			  }
+			}
+		  }
+		}
+	}
+	.tabsacel__content{
+	  &.tab-content{
+		margin: 0px;
+		padding-top: 10px;
+		.tabsacel__content__header{
+		  border-bottom: 1px solid #eee;
+		  margin: 10px 15px 15px;
+		  p {
+			display: inline-block;
+			float: none;
+			font-weight: 600;
+			font-size: 13px;
+			margin: 0px 10px 0px 0px;
+			span {
+			  font-size: 17px;
+			  font-weight: bold;
+			}
+		  }
+		  h3 {
+			margin-top: 0px;
+			font-weight: 600;
+			display: inline-block;
+		  }
+		}
+	  }
+	}
+
+	/* Fim tabs */
+
+	/* Inicio breadcrumb */
+
+	.div-content{
+	  .content-breadcrumb{
+		padding: 6px 40px 10px;
+		ol{
+		  &.breadcrumb{
+			padding: 8px 0px;
+			margin-bottom: 0px;
+			list-style: none;
+			background-color: transparent;
+			border-radius: 4px;
+			font-size: 13px;
+			li{
+			  a{
+				color:#333;
+			  }
+			  &.active{
+				color: #aaa;
+			  }
+			}
+		  }
+		}
+	  }
+	  .div-after-breadcrumb{
+		padding: 10px 40px 0px;
+	  }
+	}
+
+	/* Fim breadcrumb */
+
+}
+
+.loading {
+  &:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.5);
+	width: 100%;
+	height: 100%;
+	border-radius: .28571429rem;
+	z-index: 100;
+  }
+  &:after {
+	position: absolute;
+	content: '';
+	top: 50%;
+	left: 50%;
+	margin: -1.5em 0 0 -1.5em;
+	width: 3em;
+	height: 3em;
+	-webkit-animation: loader .6s linear;
+	animation: loader .6s linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	border-radius: 500rem;
+	border-color: #767676 rgba(0,0,0,.1) rgba(0,0,0,.1);
+	border-style: solid;
+	border-width: .2em;
+	box-shadow: 0 0 0 1px transparent;
+	visibility: visible;
+	z-index: 101;
+  }
+}
+
+@-webkit-keyframes loader{
+  from{-webkit-transform:rotate(0);transform:rotate(0)}
+  to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}
+@keyframes loader{
+  from{-webkit-transform:rotate(0);transform:rotate(0)}
+  to{-webkit-transform:rotate(360deg);transform:rotate(360deg)}
+}

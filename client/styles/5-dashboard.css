@@ -1,0 +1,178 @@
+/*Dashboard - ACÕES/ATIVIDADES: INICIO*/
+.tempo-acabando{
+	color:#B71C1C;
+}
+.tempo-medio{
+	color:#F9A825;
+}
+.div-content .div-content-atividades{
+	background-color: #EBEBEB;
+	padding: 0 0 40px 0px !important;
+	color:#004e70;
+}
+.div-content .div-content-atividades > div{
+	padding:  10px 40px 0px;
+}
+.div-content .div-content-atividades .div-content-atividades-header{
+	position: relative;
+	padding-top: 40px;
+}
+.div-content .div-content-atividades .div-content-atividades-header .filtro{
+	margin-top: 0px;
+
+}
+
+.btn.btn-clicklead{
+	padding: 8px 50px;
+	background-color: #004e70;
+	color: #fff;
+	font-weight: 600;
+}
+.btn.btn-clicklead:active{
+	background-color: #5cb1d1;
+	color: #fff;
+}
+
+.div-content-atividades-header i {
+	font-size: 70px;
+	color: #999;
+}
+.div-content-atividades .icon-expand{
+	font-size: 30px;
+	color:#5cb1d1;
+	padding: 0px;
+}
+.icon-expand{
+	display: block;
+	text-align: center;
+	font-size: 30px;
+	background-color: #f2f2f2;
+}
+.icon-expand:hover{
+	background-color: #ddd;
+}
+.icon-expand:hover i{
+	-webkit-animation-name: slybounce;
+	-webkit-animation-duration: 0.7s;
+	-webkit-animation-timing-function: ease-in-out;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-delay: 0;
+	-webkit-animation-play-state: running;
+	-moz-animation-name: slybounce;
+	-moz-animation-duration: 0.7s;
+	-moz-animation-timing-function: ease-in-out;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-delay: 0;
+	-moz-animation-play-state: running;
+}
+.div-content-atividades-itens {
+	max-height: 255px;
+	overflow-y: hidden;
+	-webkit-transition: max-height 1s;
+	-moz-transition: max-height 1s;
+	-ms-transition: max-height 1s;
+	-o-transition: max-height 1s;
+	transition: max-height 1s;
+}
+.div-content-atividades-itens > p {
+	text-align: center;
+	color: #999;
+	padding: 0px 0px 30px 0px;
+	font-size: 16px;
+}
+
+.div-acoes-expand{
+	max-height: 510px;
+	-webkit-transition: max-height 1s;
+	-moz-transition: max-height 1s;
+	-ms-transition: max-height 1s;
+	-o-transition: max-height 1s;
+	transition: max-height 1s;
+}
+
+table.div-content-atividades-itens th {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.div-content-atividades-itens tr.item-clicklead{
+	background-color: #c8c8c8;
+}
+
+.div-content-atividades-itens>tbody>tr>td{
+	width: 22%;
+	position: relative;
+}
+.div-content-atividades-itens>tbody>tr>td.foto-produto{
+	width: 12%;
+}
+
+.div-content-atividades-itens>tbody>tr>td.foto-produto img{
+	max-height: 21px;
+	position: absolute;
+	left: 8px;
+	top: 10px;
+
+}
+
+.div-content-atividades-itens td.status-item p {
+	padding: 3px 0px;
+	padding-right: 6px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.div-content-atividades-itens td p{
+	margin: 0px;
+}
+
+table.div-content-atividades-itens>thead>tr>th{
+	border-bottom: 1px solid #fff;
+}
+table.div-content-atividades-itens>tbody>tr>td{
+	border-bottom: 1px solid #fff;
+}
+table.div-content-atividades-itens>tbody>tr:hover>td{
+	background-color: #f9f9f9;
+}
+table.div-content-atividades-itens>tbody>tr:hover{
+	cursor:pointer !important;
+}
+
+.div-content-atividades-itens td.time-item{
+	text-align: left;
+	font-weight: 700;
+	text-transform: lowercase;
+}
+.btn-status{
+	border-radius: 4px !important;
+	background-color: #ddd;
+	border:1px solid #bbb !important;
+	width:184px;
+	text-align: left;
+}
+/*Dashboard - ACÕES/ATIVIDADES: FIM*/
+
+/*Dashboard - Gamefication e comunicações: INICIO*/
+.border-content{
+	border-top:1px solid #eee;
+	margin: 0px !important;
+}
+.div-content-gamefication{
+
+	padding-bottom:40px;
+}
+.div-content-gamefication > div{
+	padding: 0px;
+}
+.div-content-gamefication-itens {
+	margin: 0px 0px 0px 10px;
+}
+.div-content-gamefication .div-content-categoria > img {
+	max-height: 180px;
+	margin-left: 30px;
+}
+
+button, a {
+	outline: 0 !important;
+}

@@ -1,0 +1,1005 @@
+[
+  {
+    "name" : "HB20 HATCH 1.0 COMFORT PLUS FLEX AR+DH+VE+TE",
+    "marca" : "HYUNDAI",
+    "transmissao" : "MANUAL",
+    "categoria": "compacto",
+    "classe" : "A",
+    "imgPath" : "/img/carrofacil/Novo-Hyundai-Hb20-2016 (2).jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "manual"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano (A)",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1390.00,
+        "price_deal": 1450.00
+      }
+    ]
+  },
+  {
+    "name" : "ONIX 1.0 LT FLEX AR+DH+VE+TE",
+    "marca" : "CHEVROLET",
+    "transmissao" : "MANUAL",
+    "categoria": "compacto",
+    "classe" : "A",
+    "imgPath" : "/img/carrofacil/onix 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "manual"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano (A)",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1450.00,
+        "price_deal": 1390.00
+      }
+    ]
+  },
+  {
+    "name" : "HB20 HATCH 1.0 COMFORT PLUS FLEX AR+DH+VE+TE",
+    "marca" : "HYUNDAI",
+    "transmissao" : "MANUAL",
+    "categoria": "compacto",
+    "classe" : "B",
+    "imgPath" : "/img/carrofacil/Novo-Hyundai-Hb20-2016 (2).jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "manual"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1550.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1450.00
+      }
+    ]
+  },
+  {
+    "name" : "MARCH 1.0 SV FLEX AR+DH+VE+TE",
+    "marca" : "NISSAN",
+    "transmissao" : "MANUAL",
+    "categoria": "compacto",
+    "classe" : "B",
+    "imgPath" : "/img/carrofacil/nissan march 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "manual"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1550.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1450.00
+      }
+    ]
+  },
+  {
+    "name" : "ONIX 1.0 LT MYLINK FLEX AR+DH+VE+TE",
+    "marca" : "CHEVROLET",
+    "transmissao" : "MANUAL",
+    "categoria": "compacto",
+    "classe" : "B",
+    "imgPath" : "/img/carrofacil/onix 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "manual"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1480.00,
+        "price_deal": 1550.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1450.00
+      }
+    ]
+  },
+  {
+    "name" : "HB20 HATCH 1.6 COMFORT PLUS FLEX AR+DH+VE+TE",
+    "marca" : "HYUNDAI",
+    "transmissao" : "MANUAL",
+    "categoria": "compacto",
+    "classe" : "C",
+    "imgPath" : "/img/carrofacil/Novo-Hyundai-Hb20-2016 (2).jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "manual"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1680.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1580.00
+      }
+    ]
+  },
+  {
+    "name" : "MARCH 1.6 SV FLEX AR+DH+VE+TE",
+    "marca" : "NISSAN",
+    "transmissao" : "MANUAL",
+    "categoria": "compacto",
+    "classe" : "C",
+    "imgPath" : "/img/carrofacil/nissan march 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "manual"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1680.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1580.00
+      }
+    ]
+  },
+  {
+    "name" : "ONIX 1.4 LT MYLINK FLEX AR+DH+VE+TE",
+    "marca" : "CHEVROLET",
+    "transmissao" : "MANUAL",
+    "categoria": "compacto",
+    "classe" : "C",
+    "imgPath" : "/img/carrofacil/onix 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.4"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "manual"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1680.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1580.00
+      }
+    ]
+  },
+  {
+    "name" : "HB20 HATCH 1.6 COMFORT PLUS FLEX AR+DH+VE+TE+AT",
+    "marca" : "HYUNDAI",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "D",
+    "imgPath" : "/img/carrofacil/Novo-Hyundai-Hb20-2016 (2).jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1860.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1740.00
+      }
+    ]
+  },
+  {
+    "name" : "MARCH 1.6 SV FLEX AR+DH+VE+TE+AT",
+    "marca" : "NISSAN",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "D",
+    "imgPath" : "/img/carrofacil/nissan march 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1680.00,
+        "price_deal": 1860.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1740.00
+      }
+    ]
+  },
+  {
+    "name" : "ONIX 1.4 LT FLEX AR+DH+VE+TE+AT",
+    "marca" : "CHEVROLET",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "D",
+    "imgPath" : "/img/carrofacil/onix 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.4"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1860.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1740.00
+      }
+    ]
+  },
+  {
+    "name" : "HB20 SEDAN 1.6 COMFORT PLUS FLEX AR+DH+VE+TE",
+    "marca" : "HYUNDAI",
+    "transmissao" : "MANUAL",
+    "categoria": "compacto",
+    "classe" : "E",
+    "imgPath" : "/img/carrofacil/HB20 sedann.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "manual"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1790.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1680.00
+      }
+    ]
+  },
+  {
+    "name" : "VERSA 1.6 S FLEX AR+DH+VE+TE",
+    "marca" : "NISSAN",
+    "transmissao" : "MANUAL",
+    "categoria": "compacto",
+    "classe" : "E",
+    "imgPath" : "/img/carrofacil/nissan versa 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "manual"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1790.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1680.00
+      }
+    ]
+  },
+  {
+    "name" : "HB20 SEDAN 1.6 COMFORT PLUS FLEX AR+DH+VE+TE+AT",
+    "marca" : "HYUNDAI",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "F",
+    "imgPath" : "/img/carrofacil/HB20 sedann.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1980.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1890.00
+      }
+    ]
+  },
+  {
+    "name" : "PRISMA 1.4 LT FLEX AR+DH+VE+TE+AT",
+    "marca" : "CHEVROLET",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "F",
+    "imgPath" : "/img/carrofacil/chevrolet prisma 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.4"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1980.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1890.00
+      }
+    ]
+  },
+  {
+    "name" : "VERSA 1.6 SV FLEX AR+DH+VE+TE+AT",
+    "marca" : "NISSAN",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "F",
+    "imgPath" : "/img/carrofacil/nissan versa 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 1860.00,
+        "price_deal": 1980.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1890.00
+      }
+    ]
+  },
+  {
+    "name" : "HB20 HATCH 1.6 PREMIUM FLEX AR+DH+VE+TE+AT",
+    "marca" : "HYUNDAI",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "G",
+    "imgPath" : "/img/carrofacil/Novo-Hyundai-Hb20-2016 (2).jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2070.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1980.00
+      }
+    ]
+  },
+  {
+    "name" : "MARCH 1.6 SL FLEX AR+DH+VE+TE+AT",
+    "marca" : "NISSAN",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "G",
+    "imgPath" : "/img/carrofacil/nissan march 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2070.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1980.00
+      }
+    ]
+  },
+  {
+    "name" : "ONIX 1.4 LTZ MYLINK FLEX AR+DH+VE+TE+AT",
+    "marca" : "CHEVROLET",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "G",
+    "imgPath" : "/img/carrofacil/onix 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.4"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2070.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 1980.00
+      }
+    ]
+  },
+  {
+    "name" : "COBALT 1.8 LTZ FLEX AR+DH+VE+TE+AT",
+    "marca" : "CHEVROLET",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "H",
+    "imgPath" : "/img/carrofacil/chevrolet cobalt 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.8"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2290.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 2170.00
+      }
+    ]
+  },
+  {
+    "name" : "HB20 SEDAN 1.6 PREMIUM FLEX AR+DH+VE+TE+AT",
+    "marca" : "HYUNDAI",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "H",
+    "imgPath" : "/img/carrofacil/HB20 sedann.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2290.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 2170.00
+      }
+    ]
+  },
+  {
+    "name" : "VERSA 1.6 UNIQUE FLEX AR+DH+VE+TE+AT",
+    "marca" : "NISSAN",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "compacto",
+    "classe" : "H",
+    "imgPath" : "/img/carrofacil/nissan versa 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2290.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 2170.00
+      }
+    ]
+  },
+  {
+    "name" : "2008 1.6 ALLURE FLEX AR+DH+VE+TE+AT",
+    "marca" : "PEUGEOT",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "intermediario",
+    "classe" : "J",
+    "imgPath" : "/img/carrofacil/2008 peugeot 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2390.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 2290.00
+      }
+    ]
+  },
+  {
+    "name" : "ECOSPORT 1.6 FREESTYLE POWERSHIFT FLEX AR+DH+VE+TE+AT",
+    "marca" : "FORD",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "intermediario",
+    "classe" : "J",
+    "imgPath" : "/img/carrofacil/Ford-EcoSport Powershift-2015-.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2390.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 2290.00
+      }
+    ]
+  },
+  {
+    "name" : "2008 1.6 GRIFFE FLEX AR+DH+VE+TE+AT",
+    "marca" : "PEUGEOT",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "intermediario",
+    "classe" : "L",
+    "imgPath" : "/img/carrofacil/2008 peugeot 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2790.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 2670.00
+      }
+    ]
+  },
+  {
+    "name" : "ECOSPORT 2.0 TITANIUM FLEX AR+DH+VE+TE+AT",
+    "marca" : "FORD",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "intermediario",
+    "classe" : "L",
+    "imgPath" : "/img/carrofacil/ford ecosport 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "2.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2790.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 2670.00
+      }
+    ]
+  },
+  {
+    "name" : "KICKS 1.6 SV FLEX AR+DH+VE+TE+AT",
+    "marca" : "NISSAN",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "intermediario",
+    "classe" : "L",
+    "imgPath" : "/img/carrofacil/nissan kicks 2016.png",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2790.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 2670.00
+      }
+    ]
+  },
+  {
+    "name" : "FOCUS HATCH 2.0 SE FLEX AR+DH+VE+TE+AT",
+    "marca" : "FORD",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "intermediario",
+    "classe" : "I",
+    "imgPath" : "/img/carrofacil/ford focus hatch 2016.png",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "2.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 3170.00
+      }
+    ]
+  },
+  {
+    "name" : "FOCUS SEDAN 2.0 SE FLEX AR+DH+VE+TE+AT",
+    "marca" : "FORD",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "intermediario",
+    "classe" : "K",
+    "imgPath" : "/img/carrofacil/ford focus sedan s 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "2.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 3170.00
+      }
+    ]
+  },
+  {
+    "name" : "KICKS 1.6 SL FLEX AR+DH+VE+TE+AT",
+    "marca" : "NISSAN",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "intermediario",
+    "classe" : "R",
+    "imgPath" : "/img/carrofacil/nissan kicks 2016.png",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.6"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 1 Ano",
+        "parcelas": 12,
+        "km_base": 25000,
+        "price": 2990.00,
+        "price_deal": 3200.00
+      },
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 2050.00
+      }
+    ]
+  },
+  {
+    "name" : "FOCUS HATCH 2.0 TITANIUM FLEX AR+DH+VE+TE+AT",
+    "marca" : "FORD",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "luxo",
+    "classe" : "S",
+    "imgPath" : "/img/carrofacil/ford focus hatch 2016.png",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "2.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 3400.00
+      }
+    ]
+  },
+  {
+    "name" : "COROLLA 2.0 XEI FLEX AR+DH+VE+TE+AT",
+    "marca" : "TOYOTA",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "luxo",
+    "classe" : "M",
+    "imgPath" : "/img/carrofacil/novo-corolla-2016-5.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "2.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 3400.00
+      }
+    ]
+  },
+  {
+    "name" : "SENTRA 2.0 SV FLEX AR+DH+VE+TE+AT",
+    "marca" : "NISSAN",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "luxo",
+    "classe" : "M",
+    "imgPath" : "/img/carrofacil/",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "2.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 2990.00,
+        "price_deal": 3400.00
+      }
+    ]
+  },
+  {
+    "name" : "FOCUS SEDAN 2.0 TITANIUM FLEX AR+DH+VE+TE+AT",
+    "marca" : "FORD",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "luxo",
+    "classe" : "M",
+    "imgPath" : "/img/carrofacil/ford focus sedan s 2016.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "2.0"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 3400.00
+      }
+    ]
+  },
+  {
+    "name" : "Q3 1.4 AMBIENTE AR+DH+VE+TE+AT",
+    "marca" : "AUDI",
+    "transmissao" : "AUTOMÁTICO",
+    "categoria": "luxo",
+    "classe" : "O",
+    "imgPath" : "/img/carrofacil/audi q3.jpg",
+    "details": [
+      {"type": "motor", "label": "Motor", "value": "1.4"},
+      {"type": "potencia", "label": "Potência", "value": "75.0 - 80.0"},
+      {"type": "cambio", "label": "Câmbio", "value": "automático"},
+      {"type": "combustivel", "label": "Combustível", "value": "Flex"},
+      {"type": "consumo", "label": "Consumo (km/l)", "value": "8.5 - 12.5"},
+      {"type": "direcao", "label": "Direção", "value": "Hidráulica"}
+    ],
+    "contratos": [
+      {
+        "title": "Contatro 2 Anos",
+        "parcelas": 24,
+        "km_base": 50000,
+        "price": 5500.00
+      }
+    ]
+  }
+]

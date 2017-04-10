@@ -1,0 +1,369 @@
+
+.line{
+  width: 100%;
+  height: 3px;
+  background-color: #f9f9f9;
+  z-index: 999;
+}
+.checkout-background img{
+  display: block;
+  margin: 40px auto 0px auto;
+  width: 90%;
+
+}
+
+.content-venda h1 {
+    margin: 50px 0px;
+}
+
+div.modal img{
+  width: 350px;
+  height: 250px;
+}
+.checkout-background .footer-class{margin-right: 5%;}
+
+
+/*.div-content > .header-produto > div{*/
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*position: absolute;*/
+  /*left: 40px;*/
+/*}*/
+.div-content > .header-produto > div > div{
+  margin-left: 10px;
+}
+.div-content > .header-produto > div > div span{
+  margin: 0px;
+}
+.header-produto h1{
+  display: inline-block;
+  font-size: 23px;
+  margin: 0px;
+}
+.header-produto i{
+	display: inline-block;
+	font-size: 40px;
+	color: #777;
+}
+
+.abrirOferta{
+  display: block;
+  width: 200px;
+  height: 100px;
+}
+
+button.btn-classificar, a.btn-classificar{
+  border-radius: 3px;
+  margin-top: 0px;
+  font-size: 13px;
+  padding: 8px 15px;
+  margin: 0px 5px;
+  font-weight: 700;
+}
+button.btn-agendar i{
+  font-size: 25px;
+
+    display: block;
+}
+
+#modalAnotacoes table  tr td.data{
+  max-width: 122px;
+}
+
+#modalAnotacoes table  tr td{
+  min-width: 200px;
+  vertical-align: middle;
+}
+
+#modalAnotacoes table tr.me td{
+  background-color: #f6f6f6;
+}
+#modalAnotacoes table tr.me td.name{
+  font-weight: 600;
+}
+#modalAnotacoes .pagination{
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#modalAnotacoes .pagination li{
+  display: inline-block;
+}
+#modalAnotacoes table{
+  border-bottom: 2px solid #eee;
+}
+
+.navbar-venda{
+  display: flex;
+  background-color: #eee;
+  position: relative;
+  z-index: 999;
+}
+
+.class-hashtag label{
+  font-size: 15px;
+  background-image: none !important;
+  border-radius: 0px !important;
+  margin: 3px;
+}
+.class-hashtag label.btn.btn-primary.active{
+  background-color: #333 !important;
+
+}
+.div-btn-cotacao{
+  padding: 0px !important;
+}
+.div-btn-cotacao button {
+	font-size: 13px;
+	border-radius: 3px;
+	color: #333;
+	font-weight: 700;
+	/*padding: 8px 21px;*/
+	/*min-width: 143px;*/
+	/*font-size: 14px;*/
+	/*border-radius: 3px;*/
+	/*color: #fff;*/
+	/*background-color: #004e70;*/
+	/*font-weight: 100;*/
+}
+
+.class-fixed{position: fixed; width: 100%; top:0; z-index: 999;}
+.div-geral-venda{background-color: #f9f9f9;}
+.navbar-venda > div{
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.navbar-venda div img{
+  max-width: 70px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.navbar-venda div p{
+  margin: 0px;
+  padding: 0px;
+  line-height:0.8;
+}
+
+.navbar-venda .info-main p{
+  margin: 0px;
+  padding: 0px;
+  font-size: 2.5rem;
+}
+.navbar-venda-produto{
+  position: absolute;
+  right: 0;
+  top: -1px;
+}
+.navbar-venda-produto > div{
+  position: relative;
+  padding: 14px 10px;
+}
+
+.navbar-venda-lead > div .telefone{
+  display: inline-block;
+}
+.navbar-venda-lead .telefone select.form-control{
+  width: 140px;
+}
+
+.navbar-venda .info-main span, .navbar-venda-lead > div p span, .status-perfilResumido span, .navbar-venda-lead > div label, .header-produto > div > div span{
+  display: block;
+  font-size:11px;
+  text-transform: uppercase;
+  margin: 5px 0px;
+	margin-top: 0;
+  font-weight: 700;
+}
+.navbar-venda-lead > div p span{
+	margin-top: 7px;
+}
+.navbar-venda-produto i{
+	font-size: 40px;
+	display: inline-block;
+	padding: 0;
+}
+
+.navbar-venda-lead > div{
+	padding: 10px;
+}
+.navbar-venda-lead > div.info-main{
+  padding: 0px 15px;
+}
+.navbar-venda-lead > div p{
+	font-size: 1.6rem;
+	margin: 0px 12px;
+	vertical-align: top;
+}
+
+.botoes-acoes{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  padding: 0px !important;
+}
+.botoes-acoes button{
+  display: block;
+  height: 100%;
+  border-radius: 0px;
+  width: 150px;
+  background-color: #aaa;
+  border-left: 1px solid #ccc;
+}
+
+.steps-venda{
+  background-color: #f9f9f9;
+}
+
+.steps-venda ul{
+  margin: 0 auto;
+  padding: 0px;
+  font-size: 0px;
+}
+
+.steps-venda ul li{
+  text-align: center;
+  display: inline-block;
+  margin: 0px;
+
+  font-size: 17px;
+  padding: 0px;
+
+}
+.steps-venda ul li.last-child a{
+  margin-right: 0px;
+}
+.steps-venda ul li a{
+  display: block;
+  background-color: #fff;
+  color:#888;
+  padding: 5px 15px;
+  border-radius: 3px;
+  border-bottom-left-radius: 3px;
+      margin-right: 6px;
+      padding-left: 34px !important;
+      position: relative;
+      text-decoration: none;
+      outline:none;
+      height: 35px;
+
+}
+.steps-venda ul li.complete a{
+      margin-right: 6px;
+
+}
+.steps-venda ul li.active a{
+  background-color: #333;
+  color:#fff;
+  position: relative;
+	border-radius: 0;
+}
+.steps-venda ul li a span, .steps-venda ul li a i{
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  top:8px;
+}
+.steps-venda ul li a span{
+  font-size: 16px;
+}
+.steps-venda ul li.complete a span{
+  display: none;
+}
+.steps-venda ul li.complete a:hover span{
+  display: block;
+}
+.steps-venda ul li.complete a:hover i{
+  display: none;
+}
+.steps-venda ul li.complete a i{
+  display: block;
+}
+.steps-venda ul li a i{
+  display: none;
+}
+
+.steps-venda ul li.complete a{
+  background-color: #999;
+  color:#fff;
+
+}
+
+.steps-venda ul li.complete a:after{
+  border-left-color: #999 !important;
+}
+
+.steps-venda ul li a:after{
+  width: 0px;
+    height: 0px;
+    border-top: 18px inset transparent;
+    border-bottom: 18px inset transparent;
+    border-left: 18px solid #fff;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -17px;
+    z-index: 99;
+}
+.steps-venda ul li.active a:after{
+  border-left-color: #333;
+}
+.steps-venda ul li a:before{
+  width: 0px;
+  height: 0px;
+  border-top: 18px inset transparent;
+  border-bottom: 18px inset transparent;
+  border-left: 18px solid #f9f9f9;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: 88;
+}
+
+.steps-venda ul li.first-child a:before{
+  border-width: 0px;
+}
+.steps-venda ul li.last-child a:after{
+  border-width: 0px;
+}
+
+
+
+.steps-venda .step.active{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+	border:0px solid #ddd;
+	z-index: 666;
+  background-color: #ddd;
+}
+
+.steps-venda .line{
+  background-color: #ccc;
+  height: 3px;
+}
+
+.content-venda{
+	padding-top: 125px;
+	min-height: 100vh;
+	position: relative;
+	background-color: #A3BBCA;
+}
+.content-venda .row{
+  margin: 0px;
+}
+
+.text-pad{
+  display: block;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin: 5px 0px;
+  font-weight: 700;
+}
+
+.mg{
+  padding-bottom: 15px;
+}

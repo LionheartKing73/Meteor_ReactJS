@@ -1,0 +1,235 @@
+$cor1: white;
+$cor2: #ececec;
+
+.nimble-wrapper {
+  @-webkit-keyframes placeHolderShimmer {
+    0% {
+      background-position: -468px 0
+    }
+    100% {
+      background-position: 468px 0
+    }
+  }
+
+  @keyframes placeHolderShimmer {
+    0% {
+      background-position: -468px 0
+    }
+    100% {
+      background-position: 468px 0
+    }
+  }
+
+  .shimmer-loading {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmer;
+    animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    background: $cor1!important;
+    background: -webkit-gradient(linear, left top, right top, color-stop(8%, $cor1), color-stop(18%, $cor2), color-stop(33%, $cor1)) !important;
+    background: -webkit-linear-gradient(left, $cor1 8%, $cor2 18%, $cor1 33%) !important;
+    background: linear-gradient(to right, $cor1 8%, $cor2 18%, $cor1 33%) !important;
+    position: relative;
+
+    & > div {
+      opacity: 0;
+    }
+  }
+
+  .nimble__fixed-topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 126px;
+    z-index: 100;
+    background: white;
+    .steps-venda ul li a {
+      height: 36px;
+    }
+  }
+
+  .content-venda {
+    padding-top: 124px;
+    min-height: 100vh;
+    position: relative;
+    background-color: #A3BBCA;
+  }
+
+  .nimble-top-steps-ul {
+    li {
+      &:first-of-type {
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+      &:last-of-type {
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+      }
+      &.hasIcon {
+        min-width: 40px;
+      }
+    }
+  }
+
+  .nimble-container {
+	input {
+	  &:focus {
+		outline: none !important;
+	  }
+	}
+
+    input[type="text"] {
+      padding: 0.5em;
+      color: #000;
+      border-radius: 10px;
+      border: none;
+      height: 35px;
+    }
+
+    input[name="ano"] {
+      width: 100%;
+      font-size: 18px;
+      color: #6f6f6f;
+      padding: 0.4em;
+      border-radius: 8px;
+      border: none;
+    }
+
+    .shake-it {
+      -webkit-animation-name: shake;
+      animation-name: shake;
+      -webkit-animation-duration: 0.3s;
+      animation-duration: 0.3s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      // -webkit-animation-delay: 1s;
+      animation-delay: 0.3s;
+    }
+
+    .Select {
+      //margin-top: -1em;
+
+      .Select-value-label {
+        float: left;
+        width: 100%;
+        display: block;
+        margin-bottom: 0 !important;
+        margin-top: 0 !important;
+        margin-left: 10px;
+      }
+      .Select-multi-value-wrapper {
+        float: left;
+        width: 90%;
+        display: block;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+      span.Select-arrow-zone {
+        //float: right;
+      }
+      span.Select-clear-zone {
+        display: none !important;
+      }
+      .Select-control {
+		height: auto;
+		font-size: 14px;
+		border: solid 1px #CCC;
+      }
+	  &.is-open {
+		.Select-control {
+			border-radius: 0.9rem 0.9rem 0 0 !important;
+		}
+	  }
+    }
+
+    .mongoloid__error {
+      border: none !important;
+      box-shadow: none !important;
+      border-radius: 0.3rem;
+      color: #ffd941;
+      //padding: 0.3rem 1.5rem;
+      outline: none !important;
+    }
+
+    .card-item {
+	  display: inline-block; //Inline > Float. <3
+	  padding: 0 15px;
+	  vertical-align: top;
+      //float: left;
+      //padding: 0 15px;
+
+      &:not(.active) {
+        //max-width: 27rem;
+        //min-width: 27rem;
+      }
+      &.active {
+        //display: block;
+        //flex-basis: inherit;
+      }
+
+      .tile {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px 10px 0 10px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        min-height: 200px;
+        transition: 0.3s;
+        color: #333;
+        border-radius: 10px;
+        position: relative;
+        font-size: 16px;
+        min-width: 235px;
+        max-width: 895px;
+
+        .nimble_icons-wrapper {
+          float: left;
+          width: 100%;
+          text-align: center;
+
+          .span-container {
+            position: absolute;
+            bottom: 12px;
+            width: 100%;
+
+            .span-t {
+              font-weight: 700;
+              padding: 15px;
+              font-size: 12px;
+              text-align: left;
+              position: absolute;
+              bottom: -10px;
+              left: -12px;
+            }
+          }
+        }
+      }
+
+      .input-container {
+        label {
+          font-weight: normal;
+          float: left;
+          .span {
+            float: left;
+            margin: 0 0.5em;
+          }
+        }
+        .type_radio {
+          float: left;
+          width: 100%;
+        }
+        input[type="checkbox"], input[type="radio"] {
+          float: left;
+        }
+      }
+    }
+  }
+}

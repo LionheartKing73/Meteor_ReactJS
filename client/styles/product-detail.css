@@ -1,0 +1,83 @@
+.header-detail-product{
+  display: flex;
+  align-items: center;
+}
+.header-detail-product h1{
+  font-size: 60px;
+}
+
+.header-detail-product h2 {
+	margin: 0px 0px 20px 10px;
+	font-size: 30px;
+	display: inline-block;
+}
+
+.header-detail-product span{
+  font-size: 12px;
+  display: block;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+
+.header-detail-product > div{
+  position: relative;
+  margin-right: 50px;
+}
+
+.header-detail-product canvas {
+  max-width: 120px;
+}
+
+.header-detail-product .donut-inner h5{
+  font-size: 35px;
+}
+.buttons-filter{
+  position: absolute !important;
+  right: 0px;
+}
+.buttons-filter button, .buttons-filter button:focus, .buttons-filter button:active{
+  margin: 0px 0px 0px 10px;
+float: right;
+  text-transform: uppercase;
+  font-size: 13px;
+  outline:0 !important;
+}
+
+.buttons-filter button.btn-more-info{
+  float: right;;
+  margin-right: 50px;
+}
+
+.div-content-produtodetail table td i, .div-content-produtodetail table td img{
+  margin-right: 10px;
+}
+
+.div-content-produtodetail table td.icons{
+    padding: 12px 0px 0px 15px !important;
+}
+.div-content-produtodetail table td img{
+  max-height: 29px;
+  display: inline-block;
+}
+.div-content-produtodetail table td .progress-bar{
+  background-color: #888;
+}
+
+.div-content-produtodetail table td .progress{
+  margin-bottom: 0px;
+}
+.div-content-produtodetail .table>tbody>tr>td{
+  padding: 15px;
+}
+.div-content-produtodetail .table>tbody>tr>td{
+  width: 25%;
+}
+.div-content-produtodetail .table>tbody>tr>td.td-propensao{
+  width: 30%;
+}
+.div-content-produtodetail .table>tbody>tr:hover td{
+  background-color: #eee !important;
+}
+.div-content-produtodetail .table>tbody>tr:hover{
+  cursor:pointer !important;
+}

@@ -1,0 +1,134 @@
+.fill-all {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.fake-steps {
+  li {
+    margin-right: 0.3rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.produtos-ja-adquiridos-wrapper {
+  i {
+    margin-right: 0.5rem;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.hidden-form-ludico {
+  float: left;
+  min-width: 13rem;
+  min-height: 20rem;
+  border-radius: 1.2rem;
+  background: #e2e4e6;
+  margin-bottom: 2rem;
+  margin-left: 1.9rem;
+}
+
+body {
+  background-color: #fff !important;
+}
+
+.Select-control {
+  background-color: #fff;
+  border-color: white;
+  color: #000;
+  cursor: default;
+  display: table;
+  border-spacing: 0;
+  border-collapse: separate;
+  height: 49px;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #9B9B9B;
+  border-radius: 9px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.has-value.Select--single > .Select-control .Select-value .Select-value-label, .has-value.is-pseudo-focused.Select--single > .Select-control .Select-value .Select-value-label {
+  color: #6b6b6b;
+}
+
+.Select-clear {
+  display: none;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.form-control {
+  height: 50px;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: transparent;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.date-picker-popover {
+  color: #888888;
+}
+
+.Select{
+  .Select-value {
+    margin-left: 0.5rem;
+  }
+}
+
+label.select-col{
+  .clear-span-margin {
+    height: 35px;
+  }
+
+  & > span {
+    display: inline;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+  }
+
+  .Select-control{
+    margin-top: 0.5em!important;
+  }
+}
+
+input[type="text"] {
+  padding: 0 1rem;
+}
+
+
+.tags-preferencias-wrapper{
+  .btn-tag{
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #333;
+    width: 139px;
+
+    &.active {
+      color: #30bcf2;
+      border-color: #30bcf2;
+      box-shadow: none;
+    }
+  }
+}
+
+.date-picker-popover{
+  display: none!important;
+}

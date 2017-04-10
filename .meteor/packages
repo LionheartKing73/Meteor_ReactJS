@@ -1,0 +1,45 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base@1.0.4             # Packages every Meteor app needs to have
+mongo@1.1.15-beta.1                   # The database Meteor supports right now
+reactive-var@1.0.11            # Reactive variable for tracker
+tracker@1.1.1                 # Meteor's client-side reactive programming library
+
+standard-minifier-css@1.3.3-beta.1   # CSS minifier run for production mode
+standard-minifier-js@1.2.2-beta.1    # JS minifier run for production mode
+es5-shim@4.6.15                # ECMAScript 5 compatibility for older browsers.
+ecmascript@0.6.2-beta.1              # Enable ECMAScript2015+ syntax in app code
+shell-server@0.2.1            # Server-side component of the `meteor shell` command
+static-html
+react-meteor-data
+accounts-facebook@1.1.0-beta.1
+service-configuration@1.0.11
+alanning:roles
+fourseven:scss
+meteorhacks:aggregate
+bryanmorgan:webshot
+check
+pauli:accounts-linkedin
+accounts-password
+accounts-google
+random
+raix:eventemitter
+mizzao:user-status
+nerdmed:sweet-alert
+session
+http
+percolate:synced-cron
+cfs:standard-packages
+cfs:gridfs
+cfs:filesystem
+xolvio:backdoor
+meteorhacks:kadira
+matb33:collection-hooks
+meteorhacks:picker
+meteorhacks:npm
+npm-container
+meteorhacks:subs-manager

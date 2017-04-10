@@ -1,0 +1,94 @@
+.MessagesList__container {
+
+}
+
+/*Mensagens: INICIO*/
+.div-mensagens {
+  height: 100%;
+  position: relative;
+}
+.div-mensagens-content {
+  height: 100%;
+  position: fixed;
+  background-color: #0f92c4;
+  overflow-y: auto;
+  border-left: 1px solid #eee;
+  width: inherit;
+}
+.div-mensagens-header {
+  padding: 10px 15px;
+  position: relative;
+  margin-bottom:13px;
+}
+
+.quantidade-mensagens {
+  position: absolute;
+  top: 5px;
+  background-color: #f20b31;
+  border-radius: 50%;
+  font-size: 13px;
+  padding: 2px 3px;
+  color: #fff;
+  font-weight: bold;
+  left: 52px;
+  width: 21px;
+  text-align: center;
+}
+
+.div-mensagens-header i {
+  font-size: 50px;
+  color:#fff;
+}
+
+.div-mensagens-header-envelope {
+  display: inline-block;
+}
+
+.div-mensagens-itens {
+  margin-bottom: 30px;
+}
+
+.div-mensagens-itens ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+.div-mensagens-itens ul li{
+  list-style: none;
+  padding: 15px;
+  padding-right: 30px;
+  font-size: 12px;
+  background-color: #fff;
+  border-bottom: 3px solid #1896c6;
+}
+
+.div-mensagens-itens ul li .mensagem-item p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  line-height: 16px;     /* fallback */
+  animation-name: showmsg;
+  animation-duration: 4s;
+}
+
+.div-mensagens-itens ul li .mensagem-item p.fechado{
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+  height: 32px;      /* fallback */
+}
+
+.div-mensagens-itens ul li .mensagem-link{
+  margin-top: 10px;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.div-mensagens-itens ul li.naolida{
+  background-color: #d7f2fc;
+}
+
+.message-item {
+  word-wrap: break-word;
+}
+
+/*Mensagens: FIM*/

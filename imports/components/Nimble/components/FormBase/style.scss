@@ -1,0 +1,76 @@
+.nimble__cards-wraper {
+  float: left;
+  width: 100%;
+
+  .loadingDataFromServer {
+    opacity: 0.4;
+  }
+
+  .forms-cntainer {
+    .nimble-acel {
+      max-width: 40%;
+      min-width: 20%;
+      float: left;
+      margin-left: 0.5rem;
+
+      .span-t {
+        position: static;
+      }
+
+      //.concluido .tile .icons {
+      //  transform: translateX(1rem) scale(0.9);
+      //}
+
+      .tile {
+        .icons {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 100%;
+          height: 100%;
+        }
+
+        .icons .fa {
+          width: 20px;
+          background: none;
+          border: none;
+        }
+
+        .icons .btn.salvar {
+          padding: 8px 6px;
+          font-weight: 700;
+          text-transform: uppercase;
+          font-style: normal;
+          font-size: 12px;
+        }
+
+        &.active {
+          min-width: 30rem;
+        }
+
+        .form-group {
+          .form-wrapper {
+            p.form-question {
+
+            }
+
+            .inputs-wrapper {
+              .input-container {
+                .nimble__input-label {
+                  input {
+                    float: left;
+                  }
+
+                  .span {
+                    float: left;
+                    margin: 0 0.5rem;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

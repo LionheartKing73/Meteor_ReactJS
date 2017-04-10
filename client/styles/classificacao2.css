@@ -1,0 +1,277 @@
+
+.line{
+  width: 100%;
+  height: 3px;
+  background-color: #f9f9f9;
+  z-index: 999;
+}
+.abrirOferta{
+  display: block;
+  width: 200px;
+  height: 100px;
+}
+.navbar-venda{
+  display: flex;
+  background-color: #eee;
+  position: relative;
+  padding-right: 300px;
+  z-index: 999;
+}
+
+.class-fixed{position: fixed; width: 100%; top:0; z-index: 999;}
+.div-geral-venda{background-color: #f9f9f9;}
+.navbar-venda > div{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-venda div img{
+  max-width: 70px;
+  border-radius: 50%;
+  margin: 0px 0px 0px 20px;
+}
+
+.navbar-venda div p{
+  margin: 0px;
+  padding: 0px;
+  line-height:0.8;
+}
+
+.navbar-venda .info-main p{
+  margin: 0px;
+  padding: 0px;
+  font-size: 28px;
+}
+.navbar-venda-produto{
+  position: absolute;
+  right: 0;
+  top: -1px;
+}
+.navbar-venda-produto > div{
+  position: relative;
+}
+
+.navbar-venda .info-main span, .navbar-venda-lead > div p span{
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin: 5px 0px;
+}
+.navbar-venda-lead > div p span{
+  margin: 9px 0px;
+}
+.navbar-venda-produto i{
+  font-size: 30px;
+
+  border-radius: 50%;
+  padding: 20px;
+
+}
+
+.navbar-venda-lead > div{
+  padding: 0px 15px;
+}
+.navbar-venda-lead > div p{
+  font-size: 18px;
+  display: inline-block;
+  margin: 0px 30px;
+  padding-top: 0px;
+  vertical-align: top;
+}
+
+.botoes-acoes{
+  position: absolute;
+  right: 0;
+  height: 100%;
+  padding: 0px !important;
+}
+.botoes-acoes button{
+  display: block;
+  height: 100%;
+  border-radius: 0px;
+  width: 150px;
+  background-color: #aaa;
+  border-left: 1px solid #ccc;
+}
+
+.steps-venda{
+  background-color: #f9f9f9;
+}
+
+.steps-venda ul{
+  margin: 0 auto;
+  padding: 0px;
+  font-size: 0px;
+}
+
+.steps-venda ul li{
+  text-align: center;
+  display: inline-block;
+  margin: 0px;
+
+  font-size: 17px;
+  padding: 0px;
+
+}
+.steps-venda ul li.last-child a{
+  margin-right: 0px;
+}
+.steps-venda ul li a{
+  display: block;
+  background-color: #fff;
+  color:#888;
+  padding: 5px 15px;
+  border-radius: 3px;
+  border-bottom-left-radius: 3px;
+      margin-right: 6px;
+      padding-left: 34px !important;
+      position: relative;
+      text-decoration: none;
+      outline:none;
+      height: 35px;
+
+}
+.steps-venda ul li.complete a{
+      margin-right: 6px;
+
+}
+.steps-venda ul li.active a{
+  background-color: #333;
+  color:#fff;
+  position: relative;
+
+}
+.steps-venda ul li a span, .steps-venda ul li a i{
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  top:8px;
+}
+.steps-venda ul li a span{
+  font-size: 16px;
+}
+.steps-venda ul li.complete a span{
+  display: none;
+}
+.steps-venda ul li.complete a:hover span{
+  display: block;
+}
+.steps-venda ul li.complete a:hover i{
+  display: none;
+}
+.steps-venda ul li.complete a i{
+  display: block;
+}
+.steps-venda ul li a i{
+  display: none;
+}
+
+.steps-venda ul li.complete a{
+  background-color: #999;
+  color:#fff;
+
+}
+
+.steps-venda ul li.complete a:after{
+  border-left-color: #999 !important;
+}
+
+.steps-venda ul li a:after{
+  width: 0px;
+    height: 0px;
+    border-top: 18px inset transparent;
+    border-bottom: 18px inset transparent;
+    border-left: 18px solid #fff;
+    position: absolute;
+    content: "";
+    top: 0;
+    right: -17px;
+    z-index: 99;
+}
+.steps-venda ul li.active a:after{
+  border-left-color: #333;
+}
+.steps-venda ul li a:before{
+  width: 0px;
+  height: 0px;
+  border-top: 18px inset transparent;
+  border-bottom: 18px inset transparent;
+  border-left: 18px solid #f9f9f9;
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: 88;
+}
+
+.steps-venda ul li.first-child a:before{
+  border-width: 0px;
+}
+.steps-venda ul li.last-child a:after{
+  border-width: 0px;
+}
+
+
+
+.steps-venda .step.active{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+	border:0px solid #ddd;
+	z-index: 666;
+  background-color: #ddd;
+}
+
+.steps-venda .line{
+  background-color: #ccc;
+  height: 3px;
+}
+
+.content-venda{
+  background-color: #f9f9f9;
+  padding-top: 125px;
+  min-height: 100vh;
+}
+.content-venda .row{
+  margin: 0px;
+}
+
+.content-venda .card-class{
+  background-color: #fff;
+  padding: 30px 35px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  z-index: 10;
+}
+.list-class{
+  padding: 0px 55px !important;
+}
+.content-venda .nav-pills li a{
+  color:#333;
+}
+
+.content-venda h1{
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+.content-venda h2{
+  font-size: 21px;
+  margin-top: 0px;
+}
+
+.content-venda textarea{resize: vertical;}
+
+.add-indicacao .btn{
+  margin-left: 30px;
+  width: 150px;
+}
+.footer-class{
+
+}
+.footer-class a{
+  padding: 10px;
+  min-width: 200px;
+  margin: 20px 0px;
+}

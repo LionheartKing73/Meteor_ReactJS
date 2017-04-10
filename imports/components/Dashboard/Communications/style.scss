@@ -1,0 +1,54 @@
+.Communications__container {
+  .comunicacoes-item {
+	.carousel {
+	  .carousel-inner {
+		background-color: #333;
+		.item {
+		  .carousel-caption {
+			bottom: 10px;
+			h3 {
+			  font-size: 22px;
+			  margin: 0 0 10px 0;
+			}
+		  }
+		}
+	  }
+	  .carousel-indicators {
+		bottom: -8px;
+	  }
+	}
+  }
+}
+
+.div-content-comunicacoes{
+  border-left:1px solid #eee;
+  padding-left: 40px;
+}
+.div-content-comunicacoes-itens{
+  display: flex;
+}
+
+.comunicacoes-item{
+  display: flex;
+  margin: 0px 10px 0px 20px;
+}
+.comunicacoes-item > i{
+  margin: 50px 10px 0px 10px;
+  color:#aaa;
+
+}
+.comunicacoes-item img{
+  display: block;
+  max-width: 100%;
+  opacity: 0.4;
+  width: 288px;
+  height: 140px;
+  max-height: 140px;
+}
+
+.div-content-comunicacoes-itens .carousel-control.left, .div-content-comunicacoes-itens .carousel-control.right{
+  background-image: none !important;
+  filter: none !important;
+  margin-top: -28px !important;
+  opacity: 1;
+}

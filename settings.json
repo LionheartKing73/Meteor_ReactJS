@@ -1,0 +1,26 @@
+{
+  "INITIAL_ADM_EMAIL": "antonio.saiotti@sciensa.com",
+  "INITIAL_ADM_PASSWORD": "mudar123",
+  "FROM_MAIL_ADDRESS": "acelcorretoresps@gmail.com",
+  "MAIL_URL": "smtp://postmaster@meteor.sciensa.click:dedd62976fb61e145785c2904cf7ba13@smtp.mailgun.org:587",
+
+  "oauth": {
+    "facebook": {
+      "appId": "150089478812731",
+      "secret": "2a7de88b8a547856084a31a5bc6f8e8f"
+    },
+    "linkedin": {
+      "clientId": "78a2ejxggslpdh",
+      "secret": "4a1vWVrYPA5malK3"
+    },
+    "google": {
+      "clientId": "631854498254-an9do2ut83ldueqa6j7f8mh5rctqoftn.apps.googleusercontent.com",
+      "secret": "_usJWpVLYYs-kXF7EsOoU4rK"
+    }
+  },
+
+  "kadira": {
+    "appId": "4DGnRFWfNC23nKgaY",
+    "appSecret": "99b76a42-d388-4b69-a30d-adeea02d70e9"
+  }
+}

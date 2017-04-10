@@ -1,0 +1,56 @@
+.nimble-step-itens-row{
+  .adicionar-condutores-wrapper{
+    width: 935px;
+  }
+
+  #adicionarIndicacao, #adicionarIndicacao .card-item .active{
+    .tile{
+      background: transparent;
+    }
+
+    .nova-indicacao-form-wr{
+      width: 664px;
+      box-sizing: border-box;
+      padding: 20px 10px 0px 10px;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      min-height: 200px;
+      background: rgba(0,41,59,0.35);
+      transition: 0.3s;
+      color: #333;
+      border-radius: 10px;
+      font-size: 16px;
+
+      .tile {
+        padding: 0!important;
+      }
+    }
+
+    .adicionar-indicacao-btn-col {
+      padding: 0 !important;
+      margin-right: 3rem;
+      .tile {
+        background: #004A8F;
+      }
+    }
+  }
+
+  .quantidade-select-wrapper-label{
+    position: absolute;
+    top: 23px;
+	width: 100px;
+    left: 130px;
+  }
+
+  #handle-end-button-wr{
+    background-color: #006400;
+    border: none;
+    width: 263px;
+    height: 200px;
+    position: absolute;
+    right: -300px;
+    top: -20px;
+    border-radius: 10px;
+  }
+}

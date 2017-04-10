@@ -1,0 +1,10 @@
+.idea/
+.vscode/
+.meteor_uploads/
+node_modules/
+npm-debug.log
+.nyc_output/
+coverage/
+.fb_html_uploads/
+meteor_uploads/
+

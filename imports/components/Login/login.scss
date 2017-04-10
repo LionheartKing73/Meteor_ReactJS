@@ -1,0 +1,75 @@
+.logincontainer{
+  margin: 0 auto !important;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient( rgba(255,255,255, 0.35), rgba(255,255,255, 0.35) ),url("/img/background-login.jpg"),linear-gradient( rgba(255,255,255, 0.35), rgba(255,255,255, 0.35) );
+  background-color: #f2f2f2 !important;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+  background-position: 30% 50%;
+  .logincontainer__logos{
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    img{
+      max-height: 57px;
+    }
+  }
+  .logincontainer__content{
+    margin-top: 30px;
+    padding: 30px 40px;
+    border-radius: 2px;
+    position: relative;
+    height: 310px;
+    color: #4a4a4a;
+    h1 {
+      font-size: 60px;
+      font-weight: bold;
+    }
+    .logincontainer__content__facebook{
+      p {
+        font-size: 21px;
+        font-weight: 600;
+      }
+      a{
+        &.btn {
+          padding: 10px 106px;
+          text-decoration: none;
+          font-size: 31px;
+          color: #fff;
+          font-weight: 900;
+          background-color: #3b5998;
+          border-width: 0;
+          &:hover {
+            color: #fff;
+            background-color: #36589a;
+          }
+          &:focus {
+            color: #fff;
+            background-color: #324a80;
+          }
+          &:active {
+            color: #fff;
+            background-color: #324a80;
+          }
+          &.fade-in {
+            opacity: 1 !important;
+            -webkit-animation: display-none-transition 1s both;
+            animation: display-none-transition 1s both;
+          }
+        }
+      }
+    }
+  }
+}

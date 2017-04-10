@@ -1,0 +1,66 @@
+.QuotationList__container {
+  .header {
+	padding: 0 0 25px;
+	border-bottom: 1px solid #eee;
+
+	h2 {
+	  font-size: 30px;
+	  display: inline-block;
+	  vertical-align: middle;
+	  margin: 0;
+	  i {
+		margin-right: 20px;
+		color: #999;
+		cursor: pointer;
+		&:hover {
+		  color: #555;
+		}
+	  }
+	}
+	.badge-qtd {
+	  display: inline-block;
+	  margin-left: 100px;
+	  min-width: 200px;
+	  line-height: 30px;
+	  font-size: 12px;
+	  text-transform: uppercase;
+	  background-color: #EBEBEB;
+	  border-radius: 5px;
+	  text-align: center;
+	  span {
+		margin: 0 auto !important;
+	  }
+	  p {
+		margin: 0 auto;
+		font-weight: bold;
+		display: inline-block;
+		margin-right: 5px;
+	  }
+	}
+	.buttons-filter {
+	  float: right;
+	  position: relative !important;
+
+	  button {
+		margin: 0px 0px 0px 10px;
+		float: right;
+		text-transform: uppercase;
+		font-size: 13px;
+		outline: 0 !important;
+	  }
+	  input {
+		line-height: 25px;
+		margin: 0;
+		border: solid 1px #999;
+	  }
+	  i {
+		&.fa-search {
+		  font-size: 20px;
+		  margin-right: 55px;
+		  line-height: 30px;
+		  color: #555;
+		}
+	  }
+	}
+  }
+}

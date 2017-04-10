@@ -1,0 +1,14 @@
+{
+  "plugins": ["plugins/markdown", "node_modules/jsdoc-strip-async-await"],
+  "markdown": {
+    "parser": "gfm"
+  },
+  "source": {
+    "exclude": [
+      ".git",
+      ".meteor",
+      "node_modules"
+    ],
+    "includePattern": ".+\\.js(x|doc)?$"
+  }
+}

@@ -1,0 +1,388 @@
+.admin {
+  margin-right: 0;
+  margin-left: 0;
+  overflow-y: overlay;
+}
+
+.admin-sidebar {
+  width: 7%;
+  float: left;
+  min-height: 100vh;
+  padding-right: 0;
+  z-index: 999;
+}
+
+.admin-sidebar-conteudo {
+  width: 7%;
+  position: fixed;
+  background-color: #aaaaaa;
+  min-height: 100vh;
+  min-width: 92px;
+  z-index: 999;
+  ul li a {
+    height: 14vh;
+    display: block;
+    color: #ffffff;
+    &:hover {
+      background-color: #333;
+    }
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    list-style: none;
+  }
+  > .active {
+    text-decoration: underline;
+  }
+  ul li img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 25%;
+  }
+}
+
+.admin-foto {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+  height: 14vh;
+}
+
+.admin-header {
+  background-color: #efefef;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  h1 {
+    font-weight: 600;
+    margin: 0.44em 0;
+    color: #696969;
+    padding: 17px 20px 18px 30px;
+  }
+}
+
+.admin-conteudo {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  width: 93%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+
+  label.mongoloid__error {
+    position: relative;
+  }
+
+  label.mongol__error-message {
+    color: #ea5959 !important;
+    text-transform: capitalize;
+    -webkit-animation-name: shake;
+    animation-name: shake;
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    position: absolute;
+    top: 4em;
+    left: 0;
+  }
+}
+
+.cadastro-titulo {
+  margin: 40px 0 40px 0;
+  padding-left: 18px;
+  width: 100%;
+}
+
+.admin-cadastro-corretor {
+  padding-left: 20px;
+  margin-top: 130px;
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  label {
+    width: 100%;
+  }
+}
+
+.admin-select {
+  position: relative;
+  width: 110%;
+}
+
+.admin-select-label {
+  position: absolute;
+  top: -16px;
+}
+
+.admin-cadastro-corretor {
+  .Select {
+    display: inline-block;
+    padding: 0 15px 5px 0;
+    height: 39px;
+    top: 16px;
+    width: 108%;
+  }
+  .Select-control {
+    margin-top: -4px !important;
+  }
+}
+
+.admin-campo-grande {
+  width: 28%;
+  display: inline-block;
+  margin: 20px;
+}
+
+.admin-campo-medio {
+  width: 21%;
+  display: inline-block;
+  margin: 20px;
+}
+
+.admin-campo-medio-produto {
+  width: 22.3%;
+  display: inline-block;
+  margin: 20px;
+}
+
+.textarea-fix {
+  vertical-align: top;
+}
+
+.admin-campo-pequeno {
+  width: 12.3%;
+  display: inline-block;
+  margin: 20px;
+}
+
+.admin-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #696969;
+  padding-left: 0;
+}
+
+.admin-label-desactive {
+  font-size: 13px;
+  font-weight: 600;
+  color: #CBCBCB;
+  padding-left: 0;
+}
+
+.admin-input {
+  font-size: 16px;
+  color: #696969;
+  outline: none;
+  padding: 10px 15px 5px 0 !important;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #999;
+  font-weight: normal;
+  width: 100%;
+  height: auto;
+  &:focus {
+    border-bottom: 2px solid #000;
+  }
+}
+
+.admin-textarea {
+  font-size: 16px;
+  color: #696969;
+  border: 1px solid #999;
+  width: 100%;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.admin-botao {
+  margin-right: 90px;
+  margin-top: 70px;
+  background: #4a4a4a;
+  border-width: 0;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  &:hover {
+    background: #999999;
+    color: #fff;
+  }
+}
+
+.admin-botao-produto {
+  margin-right: 40px;
+  margin-top: 70px;
+  background: #4a4a4a;
+  border-width: 0;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  &:hover {
+    background: #999999;
+    color: #fff;
+  }
+}
+
+.admin-botao-produto-confirm {
+  margin-right: 40px;
+  margin-top: 70px;
+  background: #2EB85B;
+  border-width: 0;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  &:hover {
+    background: #08981f;
+    color: #fff;
+  }
+}
+
+.admin-botao-produto-cancel {
+  margin-right: 40px;
+  margin-top: 70px;
+  background: #EB4C4F;
+  border-width: 0;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 15px;
+  color: #fff;
+  &:hover {
+    background: #c93021;
+    color: #fff;
+  }
+}
+
+.admin-botao-adicionar {
+  background: #4a4a4a;
+  border-width: 0;
+  font-weight: 700;
+  font-size: 13px;
+  color: #fff;
+  margin-top: 10px;
+  &:hover {
+    background: #999999;
+    color: #fff;
+  }
+}
+
+.admin-tabela {
+  margin: 190px 30px 30px 20px;
+  position: absolute;
+  width: 93%;
+  th {
+    padding-right: 20px !important;
+    font-weight: 600;
+  }
+  td {
+    font-size: 12px !important;
+    padding: 15px 25px 15px 0 !important;
+  }
+}
+
+.tabela-produto-1 {
+  width: 7% !important;
+}
+
+.tabela-produto-2 {
+  width: 7% !important;
+}
+
+.tabela-produto-3 {
+  width: 9% !important;
+}
+
+.tabela-produto-4 {
+  width: 5% !important;
+}
+
+.tabela-produto-5 {
+  width: 5% !important;
+}
+
+.tabela-produto-6 {
+  width: 4% !important;
+}
+
+.tabela-produto-7 {
+  width: 4% !important;
+}
+
+.tabela-produto-8 {
+  width: 1% !important;
+}
+
+.botao-tabela {
+  display: block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.tabela-editar {
+  border: none;
+  font-size: 26px;
+  background-color: transparent;
+  display: inline;
+  padding: 10px;
+  &:hover {
+    color: #AAAAAA;
+  }
+}
+
+.tabela-apagar {
+  border: none;
+  font-size: 28px;
+  background-color: transparent;
+  display: inline;
+  padding: 10px;
+  &:hover {
+    color: #AAAAAA;
+  }
+}
+
+.admin-tabela-editavel-wrapper {
+  margin: 20px 50px 0 20px;
+  th {
+    font-weight: 600;
+  }
+  td {
+    font-size: 12px !important;
+  }
+}
+
+.admin-tabela-editavel-searchbox {
+  margin-left: 20px;
+  input {
+    width: 40%;
+  }
+}
+
+.admin-table-editavel-addbutton {
+  height: 30px;
+  margin-right: 50px;
+  font-size: 12px;
+}
